@@ -2,11 +2,11 @@ package massimomauro.S7L2BCryptAuthorizationCORS.services;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
-import massimomauro.S7L1SpringSecurityJWT.entities.User;
-import massimomauro.S7L1SpringSecurityJWT.exceptions.BadRequestException;
-import massimomauro.S7L1SpringSecurityJWT.exceptions.NotFoundException;
-import massimomauro.S7L1SpringSecurityJWT.payloads.NewUserDTO;
-import massimomauro.S7L1SpringSecurityJWT.repositories.UsersRepository;
+import massimomauro.S7L2BCryptAuthorizationCORS.entities.User;
+import massimomauro.S7L2BCryptAuthorizationCORS.exceptions.BadRequestException;
+import massimomauro.S7L2BCryptAuthorizationCORS.exceptions.NotFoundException;
+import massimomauro.S7L2BCryptAuthorizationCORS.payloads.NewUserDTO;
+import massimomauro.S7L2BCryptAuthorizationCORS.repositories.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

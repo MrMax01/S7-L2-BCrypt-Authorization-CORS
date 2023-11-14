@@ -1,9 +1,9 @@
 package massimomauro.S7L2BCryptAuthorizationCORS.controllers;
 
 
-import massimomauro.S7L1SpringSecurityJWT.entities.Device;
-import massimomauro.S7L1SpringSecurityJWT.payloads.NewDevicePayload;
-import massimomauro.S7L1SpringSecurityJWT.services.DevicesService;
+import massimomauro.S7L2BCryptAuthorizationCORS.entities.Device;
+import massimomauro.S7L2BCryptAuthorizationCORS.payloads.NewDevicePayload;
+import massimomauro.S7L2BCryptAuthorizationCORS.services.DevicesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

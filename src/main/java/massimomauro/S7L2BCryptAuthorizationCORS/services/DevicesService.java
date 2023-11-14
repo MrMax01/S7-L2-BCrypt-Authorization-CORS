@@ -1,12 +1,12 @@
 package massimomauro.S7L2BCryptAuthorizationCORS.services;
 
 
-import massimomauro.S7L1SpringSecurityJWT.entities.Device;
-import massimomauro.S7L1SpringSecurityJWT.entities.User;
-import massimomauro.S7L1SpringSecurityJWT.enums.DeviceStatus;
-import massimomauro.S7L1SpringSecurityJWT.exceptions.NotFoundException;
-import massimomauro.S7L1SpringSecurityJWT.payloads.NewDevicePayload;
-import massimomauro.S7L1SpringSecurityJWT.repositories.DevicesRepository;
+import massimomauro.S7L2BCryptAuthorizationCORS.entities.Device;
+import massimomauro.S7L2BCryptAuthorizationCORS.entities.User;
+import massimomauro.S7L2BCryptAuthorizationCORS.enums.DeviceStatus;
+import massimomauro.S7L2BCryptAuthorizationCORS.exceptions.NotFoundException;
+import massimomauro.S7L2BCryptAuthorizationCORS.payloads.NewDevicePayload;
+import massimomauro.S7L2BCryptAuthorizationCORS.repositories.DevicesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

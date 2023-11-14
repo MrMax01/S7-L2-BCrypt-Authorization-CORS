@@ -1,12 +1,12 @@
 package massimomauro.S7L2BCryptAuthorizationCORS.controllers;
 
-import massimomauro.S7L1SpringSecurityJWT.entities.User;
-import massimomauro.S7L1SpringSecurityJWT.exceptions.BadRequestException;
-import massimomauro.S7L1SpringSecurityJWT.payloads.NewUserDTO;
-import massimomauro.S7L1SpringSecurityJWT.payloads.UserLoginDTO;
-import massimomauro.S7L1SpringSecurityJWT.payloads.UserLoginSuccessDTO;
-import massimomauro.S7L1SpringSecurityJWT.services.AuthService;
-import massimomauro.S7L1SpringSecurityJWT.services.UsersService;
+import massimomauro.S7L2BCryptAuthorizationCORS.entities.User;
+import massimomauro.S7L2BCryptAuthorizationCORS.exceptions.BadRequestException;
+import massimomauro.S7L2BCryptAuthorizationCORS.payloads.NewUserDTO;
+import massimomauro.S7L2BCryptAuthorizationCORS.payloads.UserLoginDTO;
+import massimomauro.S7L2BCryptAuthorizationCORS.payloads.UserLoginSuccessDTO;
+import massimomauro.S7L2BCryptAuthorizationCORS.services.AuthService;
+import massimomauro.S7L2BCryptAuthorizationCORS.services.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;

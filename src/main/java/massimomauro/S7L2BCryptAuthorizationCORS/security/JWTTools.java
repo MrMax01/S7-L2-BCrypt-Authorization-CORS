@@ -2,8 +2,8 @@ package massimomauro.S7L2BCryptAuthorizationCORS.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
-import massimomauro.S7L1SpringSecurityJWT.entities.User;
-import massimomauro.S7L1SpringSecurityJWT.exceptions.UnauthorizedException;
+import massimomauro.S7L2BCryptAuthorizationCORS.entities.User;
+import massimomauro.S7L2BCryptAuthorizationCORS.exceptions.UnauthorizedException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

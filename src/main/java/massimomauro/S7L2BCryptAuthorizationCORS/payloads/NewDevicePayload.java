@@ -1,7 +1,7 @@
 package massimomauro.S7L2BCryptAuthorizationCORS.payloads;
 
 import lombok.Getter;
-import massimomauro.S7L1SpringSecurityJWT.enums.DeviceStatus;
+import massimomauro.S7L2BCryptAuthorizationCORS.enums.DeviceStatus;
 
 
 @Getter

@@ -1,9 +1,9 @@
 package massimomauro.S7L2BCryptAuthorizationCORS.services;
 
-import massimomauro.S7L1SpringSecurityJWT.entities.User;
-import massimomauro.S7L1SpringSecurityJWT.exceptions.UnauthorizedException;
-import massimomauro.S7L1SpringSecurityJWT.payloads.UserLoginDTO;
-import massimomauro.S7L1SpringSecurityJWT.security.JWTTools;
+import massimomauro.S7L2BCryptAuthorizationCORS.entities.User;
+import massimomauro.S7L2BCryptAuthorizationCORS.exceptions.UnauthorizedException;
+import massimomauro.S7L2BCryptAuthorizationCORS.payloads.UserLoginDTO;
+import massimomauro.S7L2BCryptAuthorizationCORS.security.JWTTools;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
